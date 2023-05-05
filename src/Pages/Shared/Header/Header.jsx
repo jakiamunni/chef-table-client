@@ -26,7 +26,7 @@ const Header = () => {
                         <ActiveLink to='/blog'>Blog</ActiveLink>
                     </nav>
                 </div>
-                <a className="title md:text-4xl text-2xl font-semibold">Gusto</a>
+                <a className="title md:text-4xl text-2xl font-bold">Chef <span className='text-orange-500'>Table</span></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <nav className="menu menu-horizontal px-1 gap-5 flex items-center">

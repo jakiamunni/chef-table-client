@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='bg-black text-white md:flex justify-around items-start p-5'>
             <div>
-                <p className='md:text-5xl text-3xl mt-5 md:mb-10 mb-5 '>Chef <span className='text-orange-500'>Table</span></p>
+                <p className='md:text-5xl text-2xl font-bold mt-5 md:mb-10 mb-5 '>Chef <span className='text-orange-500'>Table</span></p>
                 <p className='text-md my-2'>Address: 13/F, 32 Zhongshan No.1 Road (E) </p>
                 <p className='text-md my-2'>Email: cheftableui@gmail.com</p>
                 <p className='text-md my-2'>Phone: 973-883-3488</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                 <input className='my-2 rounded p-3 ' type="text" placeholder="Your Name"/><br/>
                 <input className='my-2 rounded p-3 ' type="email" placeholder="Your Email"/><br/>
                 <input className='my-2 rounded p-3 ' type="datetime" placeholder='Date/Time' name="" id="" /><br />
-                <textarea className='my-3 rounded p-3 ' cols="23" rows="2" placeholder="Message"></textarea><br/>
+                {/* <textarea className='my-3 rounded p-3 ' cols="23" rows="2" placeholder="Message"></textarea><br/> */}
                 <input  className="bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded " type="submit" value="Book Now"/>
             </form>
             </div>
