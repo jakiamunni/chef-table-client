@@ -6,27 +6,27 @@ import "slick-carousel/slick/slick-theme.css";
 const reviews = [
   {
     id: 1,
-    name: "Lili williams",
+    name: "Fan Bingbing",
     job: "CEO of Raphen",
     image: "https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     review:
-      "I had an amazing experience at this Italian food place. The platter was delicious and the service was excellent. I highly recommend it to anyone looking for a great dining experience.",
+      "I absolutely love the Chinese food at this restaurant! The flavors are always fresh and bold, and the portion sizes are generous. My favorite dish is the Kung Pao chicken - it's perfectly spicy and savory at the same time.",
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Liu Yifei",
     job: "Air hostess",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
+    image: "https://images.unsplash.com/photo-1485199692108-c3b5069de6a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     review:
-      "This is the best Italian restaurant I've ever been to. The pasta is homemade and the sauces are delicious. The atmosphere is also great. I will definitely be back!",
+      "I've been a regular customer at this Chinese restaurant for years and it never disappoints. The hot and sour soup is the best I've ever had, and the dumplings are always perfectly steamed. I highly recommend the Mongolian beef - it's tender and flavorful every time.",
   },
   {
     id: 3,
-    name: "Miki doe",
-    job: "Founder of upek",
-    image: "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
+    name: "Zhang Ziyi",
+    job: "Software Engineer",
+    image: "https://plus.unsplash.com/premium_photo-1667518252343-0d1698a39a8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     review:
-      "The food was amazing. Everything from the appetizers to the desserts was delicious. The service was also fantastic. I can't wait to come back!",
+      "I recently tried this new Chinese restaurant and was blown away by the quality of the food. The crispy skin on the Peking duck was perfect, and the sauce was tangy and delicious. I also loved the fried rice - it had a great mix of vegetables and wasn't greasy at all. I'll definitely be coming back for more!",
   },
 ];
 
@@ -44,7 +44,7 @@ const CustomerReview = () => {
 
   return (
     <div>
-      <h2 className='md:text-5xl text-3xl text-center font-semibold text-white mb-10'>Word from our customers</h2 >
+      <h2 className='md:text-5xl text-3xl text-center font-semibold text-white mb-10'>Reviews from our customers</h2 >
       <div style={{ backgroundColor: '#212A3E' }} className="text-white text-center lg:max-w-lg md:max-w-md max-w-xs mx-auto rounded-2xl">
         <Slider {...settings}>
           {reviews.map((review) => (
