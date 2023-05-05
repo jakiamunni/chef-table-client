@@ -36,7 +36,7 @@ const BestRecipe = () => {
                     <div className='flex justify-evenly items-center my-16'>
                         <img className='w-1/2 h-1/2 rounded-lg ' src={bestRecipes[0].img} alt="" />
                         <div className='text-white p-5 '>
-                            <p className='md:text-4xl text-2xl mb-5'>{bestRecipes[0].name}</p>
+                            <p className=' text-2xl font-bold text-orange-500 mb-5'>{bestRecipes[0].name}</p>
                             <p className='mb-2'>Reviews: {bestRecipes[0].reviews}</p>
                             <p>Price: ${bestRecipes[0].price}</p>
                         </div>
@@ -45,7 +45,7 @@ const BestRecipe = () => {
                         
                         <img className='w-100 h-64 rounded-lg ' src={bestRecipes[1].img} alt="" />
                         <div className='text-white p-5 '>
-                            <p className='md:text-4xl text-2xl mb-5'>{bestRecipes[1].name}</p>
+                            <p className=' text-2xl font-bold text-orange-500 mb-5'>{bestRecipes[1].name}</p>
                             <p className='mb-2'>Reviews: {bestRecipes[1].reviews}</p>
                             <p>Price: ${bestRecipes[1].price}</p>
                         </div>
@@ -53,7 +53,7 @@ const BestRecipe = () => {
                     <div className='flex justify-evenly items-center my-16'>
                         <img className='w-1/2 rounded-lg ' src={bestRecipes[2].img} alt="" />
                         <div className='text-white p-5 '>
-                            <p className='md:text-4xl text-2xl mb-5'>{bestRecipes[2].name}</p>
+                            <p className='text-2xl  font-bold text-orange-500 mb-5'>{bestRecipes[2].name}</p>
                             <p className='mb-2'>Reviews: {bestRecipes[2].reviews}</p>
                             <p>Price: ${bestRecipes[2].price}</p>
                         </div>

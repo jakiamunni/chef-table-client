@@ -14,24 +14,24 @@ const Blog = () => {
 
 
             <div ref={ref}>
-                <h2 className='text-xl'> 1. Tell us the differences between uncontrolled and controlled components. </h2>
+                <h2 className='text-xl font-bold'> 1. Tell us the differences between uncontrolled and controlled components. </h2>
                 <p className='mb-5 mt-2'><FaLongArrowAltRight />
-                    Uncontrolled components are those where the state of the input field is managed by the browser, rather than by React or any other JavaScript framework. In other words, the value of the input field is stored internally by the browser, and the application does not have direct control over it. On the other hand, controlled components are those where the state of the input field is managed by React or another JavaScript framework. In this case, the value of the input field is stored in the component's state, and any changes to the input field are reflected in the state.
+                Controlled components refer to components that have their state and behavior controlled by the parent component. These components rely on props passed down from the parent component to update their state and behavior. Uncontrolled components refer to components that manage their own state internally. They use a ref to access the DOM element's current value and update the state accordingly.A controlled functional component is a component that receives its current value and update callback via props.
                 </p>
 
-                <h2 className='text-xl'> 2. How to validate React props using PropTypes? </h2>
+                <h2 className='text-xl font-bold'> 2. How to validate React props using PropTypes? </h2>
                 <p className='mb-5 mt-2'><FaLongArrowAltRight />
-                    propTypes, a built-in react library, is used to validate the type of props passed to a component. To use propTypes, first import the propTypes library. Then, define the prop types for your component by adding a propTypes object to the component. Now, to use the propTypes, simply pass props to your component
+                propTypes is used for props validation. If some of the props aren't using the correct type that we assigned, we will get a console warning. After we specify validation patterns, we will set App. defaultProps.
                 </p>
 
-                <h2 className='text-xl'> 3. Tell us the difference between nodejs and express js. </h2>
+                <h2 className='text-xl font-bold'> 3. Tell us the difference between nodejs and express js. </h2>
                 <p className='mb-5 mt-2'><FaLongArrowAltRight />
-                    Node.js is a runtime environment for executing JavaScript code on the server. On the other hand, Express.js is a web framework built on top of Node.js that provides a set of tools and features to build web applications and APIs
+                The main difference between Node.js and Express.js is that Node.js is a runtime environment, while Express.js is a web application framework built on top of Node.js. Node.js provides the foundation for building server-side applications using JavaScript, while Express.js provides a set of tools and features that make it easier to build web applications on top of Node.js.
                 </p>
 
-                <h2 className='text-xl'> 4. What is a custom hook, and why will you create a custom hook? </h2>
+                <h2 className='text-xl  font-bold'> 4. What is a custom hook, and why will you create a custom hook? </h2>
                 <p className='mb-5 mt-2'><FaLongArrowAltRight />
-                    React's custom hook function enables the reuse of stateful code across multiple components. It's a technique for extracting frequently used complex functionality, which facilitates sharing and reusing it across many components of your application. We should create custom hook because it allows us to extract reusable logic, share logic between components, improve code organization
+                A custom hook is a function that allows you to reuse logic across multiple components. It's a way to extract reusable logic from a component so that it can be shared between multiple components.Custom hooks are created to solve the problem of code duplication. If you find yourself writing the same code repeatedly in different components, it may be a good idea to create a custom hook that encapsulates that logic.
                 </p>
             </div>
         </div>
