@@ -4,21 +4,21 @@ const bestRecipes = [
     {
         id: 1,
         name: 'Dim Sum',
-        img: "../../../../public/platter-1.png",
+        img: "../../../../platter-1.png",
         reviews: 288,
         price: 89
     },
     {
         id: 2,
         name: 'Kung Pao',
-        img: "../../../../public/platter-2.png",
+        img: "../../../../platter-2.png",
         reviews: 382,
         price: 99
     },
     {
         id: 3,
         name: 'Xiao Long Bao',
-        img: "../../../../public/platter-3.png",
+        img: "../../../../platter-3.png",
         reviews: 327,
         price: 78
     },

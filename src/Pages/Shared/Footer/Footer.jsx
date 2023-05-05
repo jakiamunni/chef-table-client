@@ -11,9 +11,9 @@ const Footer = () => {
                 <p className='text-md my-2'>Phone: 973-883-3488</p><br />
                 <p className='text-md my-2'>Follow us on:</p>
                 <div className="links md:my-10 my-4">
-                    <a href="https://www.facebook.com/"><img src="../../../../public/icons/fb.png" alt=""/></a>
-                    <a href="https://www.twitter.com/"><img src="../../../../public/icons/twitter.png" alt=""/></a>
-                    <a href="https://www.youtube.com/"><img src="../../../../public/icons/youtube.png" alt=""/></a>
+                    <a href="https://www.facebook.com/"><img src="../../../../icons/fb.png" alt=""/></a>
+                    <a href="https://www.twitter.com/"><img src="../../../../icons/twitter.png" alt=""/></a>
+                    <a href="https://www.youtube.com/"><img src="../../../../icons/youtube.png" alt=""/></a>
                 </div>
 
             </div>

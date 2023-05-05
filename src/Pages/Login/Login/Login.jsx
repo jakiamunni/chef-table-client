@@ -58,7 +58,7 @@ const Login = () => {
     }
 
     if (error == 'Firebase: Error (auth/wrong-password).') {
-        setError('Password did not match')
+        setError('Incorrect Password')
     }
 
     return (
@@ -66,13 +66,13 @@ const Login = () => {
 
             <div className="hero-content flex-col">
                 <div className="text-center">
-                    <div className='flex justify-center items-start gap-8'>
+                    {/* <div className='flex justify-center items-start gap-8'>
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-1.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-2.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-3.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-4.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-5.png" alt="" />
-                    </div>
+                    </div> */}
                     <h1 className="text-4xl font-bold my-5">Login to your account</h1>
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleLogin} className="card-body">
