@@ -7,7 +7,7 @@ const reviews = [
   {
     id: 1,
     name: "Fan Bingbing",
-    job: "CEO of Raphen",
+    job: "Actress",
     image: "https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     review:
       "I absolutely love the Chinese food at this restaurant! The flavors are always fresh and bold, and the portion sizes are generous. My favorite dish is the Kung Pao chicken - it's perfectly spicy and savory at the same time.",
@@ -15,7 +15,7 @@ const reviews = [
   {
     id: 2,
     name: "Liu Yifei",
-    job: "Air hostess",
+    job: "Singer",
     image: "https://images.unsplash.com/photo-1485199692108-c3b5069de6a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     review:
       "I've been a regular customer at this Chinese restaurant for years and it never disappoints. The hot and sour soup is the best I've ever had, and the dumplings are always perfectly steamed. I highly recommend the Mongolian beef - it's tender and flavorful every time.",
@@ -45,7 +45,7 @@ const CustomerReview = () => {
   return (
     <div>
       <h2 className='md:text-5xl text-3xl text-center font-semibold text-white mb-10'>Reviews from our customers</h2 >
-      <div style={{ backgroundColor: '#212A3E' }} className="text-white text-center lg:max-w-lg md:max-w-md max-w-xs mx-auto rounded-2xl">
+      <div style={{ backgroundColor: '#1E3F66' }} className="text-white text-center lg:max-w-lg md:max-w-md max-w-xs mx-auto rounded">
         <Slider {...settings}>
           {reviews.map((review) => (
             <div key={review.id} className="px-4 pt-8 pb-6">
