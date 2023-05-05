@@ -46,13 +46,13 @@ const Register = () => {
             <div className="hero-content flex-col">
                 <div className="text-center">
                 <div className='flex justify-center items-start gap-8'>
-                        <img style={{ width: '40px' }} src="./assets/icons/Restaurant-1.png" alt="" />
+                        {/* <img style={{ width: '40px' }} src="../../../../public/icons/Restaurant-1.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-2.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-3.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-4.png" alt="" />
-                        <img style={{ width: '40px' }} src="./assets/icons/Restaurant-5.png" alt="" />
+                        <img style={{ width: '40px' }} src="./assets/icons/Restaurant-5.png" alt="" /> */}
                     </div>
-                    <h1 className="text-5xl font-bold my-5">Please Register!</h1>
+                    <h1 className="text-4xl font-bold my-5">Register Here</h1>
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleRegister} className="card-body">
                             <div className="form-control">
@@ -85,7 +85,7 @@ const Register = () => {
                             </div>
                             <div className="form-control">
                                 
-                                <button className='btn btn-primary'>Register</button>
+                                <button className='hover:bg-blue-700 text-white font-bold py-2 px-4 rounded bg-orange-500 border-none'>Register</button>
                                 <p className='text-green-500 text-xs mt-3'>{success}</p>
                             </div>
                         </form>
